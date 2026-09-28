@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL RAYYAN FURNITURE 2 | مفروشات الريان 2 - Premium Furniture Showroom</title>
+    <meta name="description" content="AL RAYYAN FURNITURE 2 (مفروشات الريان 2) offers luxury sofas, beds, dining tables, curtains, upholstery, and home decor across Saudi Arabia. Contact Owner Rizwan Khan +966 53 555 4962.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Delivery Announcement Bar -->
+    <div class="delivery-bar">
+        <div class="delivery-content">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span data-i18n="deliveryText">Delivery available all over Saudi Arabia 🇸🇦 | التوصيل متوفر لكافة أنحاء المملكة العربية السعودية</span>
+        </div>
+    </div>
+
+    <!-- Sticky Header & Navigation -->
+    <header class="navbar" id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-couch"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-en">AL RAYYAN <span class="gold-text">FURNITURE 2</span></span>
+                    <span class="brand-ar">مفروشات الريان 2</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active" data-i18n="navHome">Home</a>
+                <a href="#categories" class="nav-link" data-i18n="navCategories">Categories</a>
+                <a href="#products" class="nav-link" data-i18n="navProducts">Products</a>
+                <a href="#about" class="nav-link" data-i18n="navAbout">About Us</a>
+                <a href="#howtobuy" class="nav-link" data-i18n="navHowToBuy">How to Buy</a>
+                <a href="#location" class="nav-link" data-i18n="navLocation">Location</a>
+                <a href="#contact" class="nav-link" data-i18n="navContact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Language Toggle Button -->
+                <div class="lang-switch">
+                    <button id="langToggle" class="lang-btn" aria-label="Toggle Language">
+                        <span class="lang-en active">EN</span>
+                        <span class="lang-divider">|</span>
+                        <span class="lang-ar">العربية</span>
+                    </button>
+                </div>
+
+                <a href="https://wa.me/966535554962" target="_blank" rel="noopener" class="header-wa-btn">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span data-i18n="headerWhatsApp">Contact Us</span>
+                </a>
+
+                <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fa-solid fa-crown"></i>
+                <span data-i18n="heroBadge">Luxury Living Collection</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-main">AL RAYYAN FURNITURE 2</span>
+                <span class="title-sub">مفروشات الريان 2</span>
+            </h1>
+            <p class="hero-tagline" data-i18n="heroTagline">"Quality Furniture for Your Beautiful Home"</p>
+            <p class="hero-subtext" data-i18n="heroSubtext">Transforming living spaces with elegance, comfort, and unmatched craftsmanship.</p>
+            
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">
+                    <span data-i18n="exploreBtn">Explore Furniture</span>
+                    <i class="fa-solid fa-arrow-right icon-ltr"></i>
+                    <i class="fa-solid fa-arrow-left icon-rtl"></i>
+                </a>
+                <a href="https://wa.me/966535554962" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span data-i18n="heroWaBtn">Contact on WhatsApp</span>
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-label" data-i18n="statQuality">Premium Quality</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">🇸🇦 KSA</span>
+                    <span class="stat-label" data-i18n="statDelivery">Nationwide Delivery</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">24/7</span>
+                    <span class="stat-label" data-i18n="statSupport">WhatsApp Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Furniture Categories Section -->
+    <section class="categories-section" id="categories">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle" data-i18n="catSubtitle">Our Showroom Specialties</span>
+                <h2 class="section-title" data-i18n="catTitle">Furniture Categories</h2>
+                <div class="title-gold-line"></div>
+            </div>
+
+            <div class="categories-grid" id="categoriesGrid">
+                <!-- Categories populated dynamically via Javascript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Gallery Section -->
+    <section class="products-section" id="products">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle" data-i18n="prodSubtitle">Featured Showroom Collection</span>
+                <h2 class="section-title" data-i18n="prodTitle">Our Exclusive Products</h2>
+                <div class="title-gold-line"></div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all" data-i18n="filterAll">All Products</button>
+                <button class="filter-btn" data-filter="sofas" data-i18n="filterSofas">Sofas & Living</button>
+                <button class="filter-btn" data-filter="beds" data-i18n="filterBeds">Beds & Bedroom</button>
+                <button class="filter-btn" data-filter="dining" data-i18n="filterDining">Dining Tables</button>
+                <button class="filter-btn" data-filter="decor" data-i18n="filterDecor">Decor & Curtains</button>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Products populated dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Buy Section -->
+    <section class="howtobuy-section" id="howtobuy">
+        <div class="section-container">
+            <div class="section-header light-text">
+                <span class="section-subtitle" data-i18n="buySubtitle">Simple Ordering Process</span>
+                <h2 class="section-title" data-i18n="buyTitle">HOW TO BUY</h2>
+                <div class="title-gold-line"></div>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-num">01</div>
+                    <div class="step-icon"><i class="fa-solid fa-list-check"></i></div>
+                    <h3 data-i18n="step1Title">Browse Collection</h3>
+                    <p data-i18n="step1Desc">Browse our furniture collection on our website or showroom.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">02</div>
+                    <div class="step-icon"><i class="fa-solid fa-heart"></i></div>
+                    <h3 data-i18n="step2Title">Select Product</h3>
+                    <p data-i18n="step2Desc">Select the product you like that fits your home style.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">03</div>
+                    <div class="step-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                    <h3 data-i18n="step3Title">Click Buy on WhatsApp</h3>
+                    <p data-i18n="step3Desc">Click the "Buy on WhatsApp" button on your chosen product card.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">04</div>
+                    <div class="step-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3 data-i18n="step4Title">Get Pricing & Details</h3>
+                    <p data-i18n="step4Desc">Contact us on WhatsApp for price, customization, and availability.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">05</div>
+                    <div class="step-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+                    <h3 data-i18n="step5Title">Confirm & Delivery</h3>
+                    <p data-i18n="step5Desc">Confirm your order with our team and receive delivery all over Saudi Arabia.</p>
+                </div>
+            </div>
+
+            <div class="howtobuy-cta">
+                <a href="https://wa.me/966535554962?text=Hello%20AL%20RAYYAN%20FURNITURE%202,%20I%20want%20to%20buy%20furniture.%20Please%20assist%20me." target="_blank" rel="noopener" class="btn btn-whatsapp-large">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span data-i18n="buyCtaBtn">CONTACT US ON WHATSAPP TO BUY</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <img src="IMAGES/WhatsApp Image 2026-09-26 at 6.30.52 PM.jpeg" alt="AL RAYYAN FURNITURE 2 Showroom" class="about-img main-img" onerror="this.src='IMAGES/images (21).jpg'">
+                    <div class="about-badge-card">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <div>
+                            <strong data-i18n="ownerTitle">Owner & Director</strong>
+                            <p>RIZWAN KHAN</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <span class="section-subtitle" data-i18n="aboutSubtitle">Welcome To Our Showroom</span>
+                    <h2 class="about-title">
+                        <span>AL RAYYAN FURNITURE 2</span><br>
+                        <span class="arabic-font gold-text">مفروشات الريان 2</span>
+                    </h2>
+                    <div class="title-gold-line align-start"></div>
+
+                    <p class="about-text" data-i18n="aboutText">
+                        AL RAYYAN FURNITURE 2 (مفروشات الريان 2) provides quality furniture and home furnishing products for beautiful and comfortable homes. Our showroom offers a wide range of furniture including sofas, chairs, tables, beds, curtains, upholstery and more.
+                    </p>
+
+                    <div class="owner-info-box">
+                        <div class="owner-avatar">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <div class="owner-details">
+                            <span class="owner-label" data-i18n="ownerLabel">Showroom Owner</span>
+                            <h4 class="owner-name">RIZWAN KHAN</h4>
+                            <p class="owner-contact">
+                                <a href="https://wa.me/966535554962" target="_blank"><i class="fa-brands fa-whatsapp"></i> +966 53 555 4962</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span data-i18n="feat1">Premium Craftsmanship & Fabrics</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span data-i18n="feat2">Delivery Available All Over Saudi Arabia 🇸🇦</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span data-i18n="feat3">Custom Upholstery & Curtains Service</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span data-i18n="feat4">Competitive Prices & Dedicated Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location-section" id="location">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle" data-i18n="locSubtitle">Visit Our Showroom</span>
+                <h2 class="section-title" data-i18n="locTitle">OUR LOCATION</h2>
+                <div class="title-gold-line"></div>
+            </div>
+
+            <div class="location-grid">
+                <div class="location-card">
+                    <div class="location-header">
+                        <i class="fa-solid fa-location-dot location-icon"></i>
+                        <div>
+                            <h3>AL RAYYAN FURNITURE 2</h3>
+                            <h4 class="gold-text arabic-font">مفروشات الريان 2</h4>
+                        </div>
+                    </div>
+
+                    <div class="location-details">
+                        <div class="detail-row">
+                            <i class="fa-solid fa-map-pin"></i>
+                            <div>
+                                <strong data-i18n="locCoordTitle">Coordinates:</strong>
+                                <p><a href="https://maps.google.com/?q=18.252306,42.760472" target="_blank" class="coord-link">18°15'08.3"N 42°45'37.7"E (18.252306, 42.760472)</a></p>
+                            </div>
+                        </div>
+
+                        <div class="detail-row">
+                            <i class="fa-solid fa-user"></i>
+                            <div>
+                                <strong data-i18n="ownerTitle">Owner:</strong>
+                                <p>RIZWAN KHAN</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-row">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <div>
+                                <strong data-i18n="contactWaTitle">WhatsApp:</strong>
+                                <p><a href="https://wa.me/966535554962" target="_blank">+966 53 555 4962</a></p>
+                            </div>
+                        </div>
+
+                        <div class="detail-row">
+                            <i class="fa-solid fa-truck"></i>
+                            <div>
+                                <strong data-i18n="deliveryTitle">Delivery:</strong>
+                                <p data-i18n="deliveryDesc">Delivery Available All Over Saudi Arabia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="location-actions">
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=18.252306,42.760472" target="_blank" rel="noopener" class="btn btn-primary">
+                            <i class="fa-solid fa-diamond-turn-right"></i>
+                            <span data-i18n="getDirections">Get Directions</span>
+                        </a>
+                        <a href="https://maps.google.com/?q=18.252306,42.760472" target="_blank" rel="noopener" class="btn btn-outline">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            <span data-i18n="openMap">Open Map Link</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="map-wrapper">
+                    <iframe 
+                        title="AL RAYYAN FURNITURE 2 Location Map"
+                        src="https://maps.google.com/maps?q=18.252306,42.760472&z=15&output=embed" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-container">
+            <div class="section-header light-text">
+                <span class="section-subtitle" data-i18n="contactSubtitle">Get In Touch With Us</span>
+                <h2 class="section-title" data-i18n="contactTitle">CONTACT US</h2>
+                <div class="title-gold-line"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-cards">
+                    <div class="c-card">
+                        <div class="c-icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <h4 data-i18n="contactOwnerLabel">Showroom Owner</h4>
+                        <p>RIZWAN KHAN</p>
+                    </div>
+
+                    <div class="c-card">
+                        <div class="c-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                        <h4 data-i18n="contactWaLabel">WhatsApp Contact</h4>
+                        <p><a href="https://wa.me/966535554962" target="_blank">+966 53 555 4962</a></p>
+                        <a href="https://wa.me/966535554962" target="_blank" class="btn btn-whatsapp sm-btn" data-i18n="chatWaBtn">WhatsApp</a>
+                    </div>
+
+                    <div class="c-card">
+                        <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <h4 data-i18n="contactEmailLabel">Email Address</h4>
+                        <p><a href="mailto:jadoonkhan5050@gmail.com">jadoonkhan5050@gmail.com</a></p>
+                        <a href="mailto:jadoonkhan5050@gmail.com" class="btn btn-outline sm-btn" data-i18n="emailBtn">Email Us</a>
+                    </div>
+
+                    <div class="c-card">
+                        <div class="c-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <h4 data-i18n="contactLocLabel">Showroom Coordinates</h4>
+                        <p>18°15'08.3"N 42°45'37.7"E</p>
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=18.252306,42.760472" target="_blank" class="btn btn-primary sm-btn" data-i18n="getDirections">Get Directions</a>
+                    </div>
+                </div>
+
+                <!-- Quick Inquiry Form -->
+                <div class="contact-form-box">
+                    <h3 data-i18n="inquiryTitle">Send Quick WhatsApp Inquiry</h3>
+                    <p data-i18n="inquirySub">Fill out your request and click send to initiate an instant WhatsApp chat with our sales team.</p>
+
+                    <form id="waForm" onsubmit="handleFormSubmit(event)">
+                        <div class="form-group">
+                            <label data-i18n="formName">Your Name</label>
+                            <input type="text" id="custName" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label data-i18n="formInterest">Product / Service Interest</label>
+                            <select id="custInterest">
+                                <option value="Sofa Set" data-i18n="optSofa">Sofa Set / Living Room</option>
+                                <option value="Bedroom Set" data-i18n="optBed">Bedroom / Beds</option>
+                                <option value="Dining Table" data-i18n="optDining">Dining Furniture</option>
+                                <option value="Curtains & Upholstery" data-i18n="optDecor">Curtains & Upholstery</option>
+                                <option value="Custom Order" data-i18n="optCustom">Custom Order Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label data-i18n="formMsg">Your Message</label>
+                            <textarea id="custMsg" rows="4" placeholder="Describe your furniture needs..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-whatsapp full-width">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span data-i18n="formSubmit">Send Inquiry via WhatsApp</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/966535554962?text=Hello%20AL%20RAYYAN%20FURNITURE%202,%20I%20have%20an%20inquiry%20about%20your%20furniture." target="_blank" rel="noopener" class="floating-wa" id="floatingWa" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="floating-wa-text" data-i18n="floatingWaText">Chat on WhatsApp</span>
+    </a>
+
+    <!-- Product Lightbox Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content dynamically generated -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <div class="logo-text">
+                        <h3 class="brand-en">AL RAYYAN <span class="gold-text">FURNITURE 2</span></h3>
+                        <h4 class="brand-ar arabic-font">مفروشات الريان 2</h4>
+                    </div>
+                    <p data-i18n="footerDesc">Premium furniture, sofas, beds, dining sets, curtains, and custom upholstery in Saudi Arabia.</p>
+                    <p class="delivery-highlight"><i class="fa-solid fa-truck-fast"></i> <span data-i18n="footerDelivery">Delivery Available All Over Saudi Arabia 🇸🇦</span></p>
+                </div>
+
+                <div class="footer-col links-col">
+                    <h4 data-i18n="footerQuickLinks">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-i18n="navHome">Home</a></li>
+                        <li><a href="#categories" data-i18n="navCategories">Categories</a></li>
+                        <li><a href="#products" data-i18n="navProducts">Products</a></li>
+                        <li><a href="#about" data-i18n="navAbout">About Us</a></li>
+                        <li><a href="#howtobuy" data-i18n="navHowToBuy">How to Buy</a></li>
+                        <li><a href="#location" data-i18n="navLocation">Location</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col contact-col">
+                    <h4 data-i18n="footerContactTitle">Contact Information</h4>
+                    <p><i class="fa-solid fa-user-tie"></i> <strong><span data-i18n="ownerTitle">Owner:</span> RIZWAN KHAN</strong></p>
+                    <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/966535554962" target="_blank">+966 53 555 4962</a></p>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:jadoonkhan5050@gmail.com">jadoonkhan5050@gmail.com</a></p>
+                    <p><i class="fa-solid fa-location-dot"></i> 18°15'08.3"N 42°45'37.7"E</p>
+                </div>
+
+                <div class="footer-col buy-note-col">
+                    <h4 data-i18n="footerBuyTitle">To Buy Any Product</h4>
+                    <div class="buy-notice-box">
+                        <i class="fa-brands fa-whatsapp notice-icon"></i>
+                        <p data-i18n="footerBuyNotice">"To Buy Any Product, Contact Us on WhatsApp."</p>
+                        <a href="https://wa.me/966535554962" target="_blank" class="btn btn-whatsapp sm-btn full-width" data-i18n="buyCtaBtnShort">Contact Us on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2026</span> AL RAYYAN FURNITURE 2 (مفروشات الريان 2). All Rights Reserved.</p>
+                <p class="owner-credit"><span data-i18n="managedBy">Owner:</span> <strong>RIZWAN KHAN</strong> | WhatsApp: +966 53 555 4962</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
